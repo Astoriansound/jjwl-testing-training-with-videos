@@ -417,6 +417,43 @@ footer a{ color: var(--text-steel2); }
   color: var(--text-ice);
 }
 
+/* ---------- resource bar ---------- */
+.resources{
+  padding: 36px 20px;
+  border-top: 1px solid var(--line);
+}
+.resources .wrap > p{
+  color: var(--text-steel2);
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+.resource-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.resource-btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.resource-btn:hover{ transform: translateY(-1px); opacity: 0.88; }
+.resource-btn.slides{
+  background: var(--bg-panel2);
+  border: 1px solid var(--line);
+  color: var(--ice);
+}
+.resource-btn.pdf{
+  background: var(--gold);
+  color: var(--bg-deepest);
+}
+
 /* ---------- rule callout (single critical statement) ---------- */
 .rule-callout{
   border: 1.5px solid var(--gold);

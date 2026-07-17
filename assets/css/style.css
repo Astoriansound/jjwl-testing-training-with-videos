@@ -449,6 +449,11 @@ footer a{ color: var(--text-steel2); }
   border: 1px solid var(--line);
   color: var(--ice);
 }
+.resource-btn.doc{
+  background: var(--bg-panel2);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+}
 .resource-btn.pdf{
   background: var(--gold);
   color: var(--bg-deepest);
